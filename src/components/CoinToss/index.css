@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  padding: 50px;
+}
+.inner-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+  border-radius: 20px;
+  width: 500px;
+}
+.heading {
+  font-size: 35px;
+  color: #a35200;
+  font-weight: bold;
+}
+.para {
+  font-size: 18px;
+  color: #334155;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+}
+.image1 {
+  height: 250px;
+  width: 250px;
+}
+.button1 {
+  border-style: solid;
+  border-width: 0px;
+  color: #a35200;
+  background-color: #f9d423;
+  border-radius: 10px;
+  height: 50px;
+  width: 100px;
+}
+.results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.total {
+  font-size: 16px;
+  color: #475569;
+  margin-left: 20px;
+}
